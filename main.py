@@ -19,7 +19,7 @@ while True:
             factorial = calculate_factorial(num)
             print(f"Факториал числа {num} равен: {factorial}")
         except OverflowError:
-            print("Вычисление факториала этого числа требует слишком большого объема памяти.")
+            print("Недостаточно памяти для вычисления.")
         except ValueError as e:
             print(e)
 
